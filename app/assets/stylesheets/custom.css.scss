@@ -1,2 +1,14 @@
+$navbar-default-bg: purple;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.center{
+    text-align: center;
+}
+.jumbotron{
+    background-image: asset-url('backgroung1.jpg');
+    height: 100%;
+    background-size: cover;
+    margin: 0px;
+}
